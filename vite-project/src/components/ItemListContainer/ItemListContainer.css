@@ -1,0 +1,38 @@
+/* ITEM LIST CONTAINER */
+.list_container {
+    text-align: center;
+    padding: 220px;
+  }
+  
+  .list_container p {
+    font-size: 18px;
+  }
+  
+  .list_container .articulo {
+    font-size: 25px;
+  }
+  
+  
+  
+  
+  /* BOTON ITEM */
+  .btn {
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    color: #ffffff;
+    background-color: #c11414;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 23px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #1a731f;
+    color: #ffffff;
+    transition: 0.3s;
+  }
