@@ -1,4 +1,4 @@
-import "./Intro.css"
+import "/src/components/Intro/Intro.css"
 
 const Intro = ({mensaje}) => {
 

@@ -1,10 +1,11 @@
-import "./ItemListContainer.css"
+import "/src/components/ItemListContainer/ItemListContainer.css"
+import producto1 from "/src/assets/img/dulcedeleche-los-nietitos.png";
 
 const ItemListContainer = ({}) => {
 
     return (
         <div className="list_container">
-                                    <img src="./imagenes/dulcedeleche-los-nietitos.png" alt="DULCE DE LECHE LOS NIETITOS"/>
+                                    <img src={producto1} alt="Dulce de leche - Los Nietitos"/>
                                     <h2 class="articulo">Dulce de Leche</h2>
                                     <h3 class="descripcion">700gr</h3>
                                     <p class="marca">LOS NIETITOS</p>
