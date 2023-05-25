@@ -1,4 +1,4 @@
-import "/src/components/ItemListContainer/ItemListContainer.css"
+import "/src/components/ItemListContainer/ItemListContainer.scss"
 import producto1 from "/src/assets/img/dulcedeleche-los-nietitos.png";
 
 const ItemListContainer = ({}) => {
@@ -10,7 +10,7 @@ const ItemListContainer = ({}) => {
                                     <h3 class="descripcion">700gr</h3>
                                     <p class="marca">LOS NIETITOS</p>
                                     <span class="precio">$ 150</span>
-                                    <a href class="btn">AGREGAR</a>
+                                    <a href class="boton">AGREGAR</a>
         </div>
 
     )

@@ -12,19 +12,19 @@
     color: rgba(191, 191, 191, 0.843);
     padding-top: 25px;
     padding-left: 150px;
+  }
 
-    .footer_botones:hover {
-      color: #ffffff;
-      transition: 0.4s;
-    }
+  .footer_botones:hover {
+    color: #ffffff;
+    transition: 0.4s;
+  }
+}
 
     /* LEGAL */
     .footer p {
-      float: right;
+      float: left;
       color: #ffffff;
       font-size: 10px;
       text-align: right;
       margin: 40px;
     }
-  }
-}

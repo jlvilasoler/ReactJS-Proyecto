@@ -12,7 +12,7 @@
   }
 
   /* BOTON ITEM */
-  .btn {
+  .boton {
     border-radius: 7px;
     margin-top: 10px;
     margin-left: 500px;
@@ -25,11 +25,13 @@
     font-weight: bold;
     font-size: 23px;
     cursor: pointer;
+  }
 
-    .btn:hover {
-      background-color: #1a731f;
-      color: #ffffff;
-      transition: 0.3s;
-    }
+  .boton:hover {
+    background-color: #1a731f;
+    color: #ffffff;
+    transition: 0.3s;
   }
 }
+
+
