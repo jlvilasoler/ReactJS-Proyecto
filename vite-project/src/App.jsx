@@ -1,7 +1,6 @@
 import Header from "./components/Header/Header" 
 import Footer from "./components/Footer/Footer" 
 import Intro from "./components/Intro/Intro" 
-import Carousel from "./components/Carousel/Carousel" 
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
 import "./App.css" 
 import { Clicker } from "./components/ItemListContainer/Clicker"

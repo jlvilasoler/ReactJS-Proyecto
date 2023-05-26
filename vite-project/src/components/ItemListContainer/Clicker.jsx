@@ -1,28 +1,29 @@
 import { useState } from "react"
 import "/src/components/ItemListContainer/Clicker.css"
 
-export const Clicker = () => {
+export const Clicker = ( {init=0 ,step=1}) => {
     const [counter, setCounter] = useState(0)
     console.log(counter)
 
-const sumar = () => {
-    setCounter( counter+1 )
-}
+    const sumar = () => {
+        setCounter(counter + step)
+    }
 
-const restar = () => {
-    setCounter( counter-1 )
-}
+    const restar = () => {
+        setCounter(counter - step)
+    }
 
-const reset = () => {
-    setCounter( 0 )
-}
+    const reset = () => {
+        setCounter(init)
+    }
+
 
     return (
-        <div className="boton">
-        <button className="boton" onClick={sumar}> ➕ </button>
-        <button className="boton" onClick={restar}> ➖ </button>
-        <button className="boton" onClick={reset}> RESET </button>
-        <p>{counter}</p>
+        <div className="boton_container">
+            <button className="boton_sumar" onClick={sumar}> ➕ </button>
+            <button className="boton_restar" onClick={restar}> ➖ </button>
+            <button className="boton_reset" onClick={reset}> RESET </button>
+            <p className="contador">{counter} unidades</p>
         </div>
     )
 }
