@@ -35,8 +35,10 @@
     }
 
     .header_link:hover {
-      color: #7c7c7c;
+      color: #bababa;
       transition: 0.3s;
+      background-color: rgb(115, 56, 11);
+      border-radius: solid 3px;
     }
   }
 }

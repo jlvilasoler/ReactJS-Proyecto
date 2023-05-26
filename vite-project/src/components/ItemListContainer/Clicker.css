@@ -2,18 +2,13 @@
 /* ITEM LIST CONTAINER */
 .boton_container {
     text-align: center;
-
-  
   }
-  
-  
-  
   
   
   .boton_container .boton_sumar {
     border-radius: 7px;
     color: #ffffff;
-    background-color: #02c025;
+    background-color: #10c01f;
     font-weight: bold;
     font-size: 23px;
     cursor: pointer;
@@ -21,10 +16,11 @@
 }
 
 .boton_sumar:hover {
-    background-color: #1f8c25;
+    background-color: #98f328;
     color: #ffffff;
     transition: 0.3s;
   }
+
 
 .boton_container .boton_restar {
     border-radius: 7px;
@@ -37,7 +33,7 @@
 }
 
 .boton_restar:hover {
-    background-color: #f35828;
+    background-color: #d67132;
     color: #ffffff;
     transition: 0.3s;
   }

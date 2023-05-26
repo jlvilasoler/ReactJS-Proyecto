@@ -13,6 +13,7 @@ const Header = () => {
                     <a className="header_link" href="#">CATEGORIAS</a>
                     <a className="header_link" href="#">INGRESAR</a>
                     <a className="header_link" href="#">CONTACTO</a>
+                    <a className="header_link" href="#"> 🛒 </a>
                 </nav>
             </div>
         </header>
