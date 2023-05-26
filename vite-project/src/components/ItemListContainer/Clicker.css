@@ -1,0 +1,23 @@
+  /* BOTON ITEM */
+  .boton {
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: 700px;
+    margin-right: 700px;
+    color: #ffffff;
+    background-color: #c11414;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 23px;
+    cursor: pointer;
+
+    .boton:hover {
+        background-color: #1a731f;
+        color: #ffffff;
+        transition: 0.3s;
+      }
+  }
+
+
