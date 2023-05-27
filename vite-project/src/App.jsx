@@ -7,7 +7,6 @@ import "./App.css";
 import { Clicker } from "./components/ItemListContainer/Clicker";
 
 
-
 function App() {
 
   const clickear = () => console.log()
@@ -18,7 +17,6 @@ function App() {
         <Header />
 
         <Intro mensaje="No te muevas de tu casa, elegi los productos y te los llevamos... "/>
-
         <ItemListContainer/>
         <Clicker/>
 

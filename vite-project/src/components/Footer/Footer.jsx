@@ -9,7 +9,7 @@ const Footer = () => {
                     <a className="footer_botones" href="#">INGRESAR</a>
 
 
-                    <p>Todos los derechos reservados. TIENDAONLINE.UY 2023 / Montevideo-Uruguay</p>
+                    <p>Todos los derechos reservados. TIENDAONLINE.UY 2023 / Montevideo-Uruguay 🇺🇾</p>
         </footer>
     )
 
