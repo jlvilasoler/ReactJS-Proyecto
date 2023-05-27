@@ -1,31 +1,24 @@
 /* ITEM LIST CONTAINER */
 .list_container {
   text-align: center;
-  padding: 20px;
-  /* BOTON ITEM */
+  padding: 10px;
+}
+.list_container .marca {
+  font-size: 30px;
+  padding: 3px;
 }
 .list_container .list_container p {
   font-size: 18px;
 }
-.list_container .list_container .articulo {
+.list_container .articulo {
+  font-size: 30px;
+}
+.list_container .descripcion {
   font-size: 25px;
+  padding: 5px;
 }
-.list_container .boton {
-  border-radius: 7px;
-  margin-top: 10px;
-  margin-left: 500px;
-  margin-right: 500px;
-  color: #ffffff;
-  background-color: #c11414;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
+.list_container .precio {
+  font-size: 40px;
   font-weight: bold;
-  font-size: 23px;
-  cursor: pointer;
-}
-.list_container .boton:hover {
-  background-color: #1a731f;
-  color: #ffffff;
-  transition: 0.3s;
+  padding: 10px;
 }/*# sourceMappingURL=ItemListContainer.css.map */

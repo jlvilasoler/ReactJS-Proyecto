@@ -29,9 +29,12 @@
 }
 .header .header_nav .header_link {
   color: white;
-  font-size: 20px;
+  font-size: 21px;
 }
 .header .header_nav .header_link:hover {
-  color: #7c7c7c;
+  color: #bababa;
   transition: 0.3s;
+  background-color: rgb(115, 56, 11);
+  border-radius: solid 10px;
+  font-size: 24px;
 }/*# sourceMappingURL=Header.css.map */
