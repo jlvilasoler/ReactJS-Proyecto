@@ -10,8 +10,7 @@ const ItemListContainer = ({}) => {
                                     <h2 className="articulo">Dulce de Leche</h2>
                                     <h3 className="descripcion">700gr</h3>
                                     <p className="marca">LOS NIETITOS</p>
-                                    <p className="precio">$ 150</p>
-                                    
+                                    <p className="precio">$ 150</p>                       
         </div>
 
     )

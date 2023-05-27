@@ -1,5 +1,5 @@
 import { useState } from "react"
-import "/src/components/ItemListContainer/Clicker.css"
+import "/src/components/ItemListContainer/Clicker.scss"
 
 export const Clicker = ( {init=0 ,step=1}) => {
     const [counter, setCounter] = useState(0)
@@ -10,8 +10,9 @@ export const Clicker = ( {init=0 ,step=1}) => {
     }
 
     const restar = () => {
+        if (counter > 0) {
         setCounter(counter - step)
-    }
+    }};
 
     const reset = () => {
         setCounter(init)
@@ -27,3 +28,5 @@ export const Clicker = ( {init=0 ,step=1}) => {
         </div>
     )
 }
+
+export default Clicker
