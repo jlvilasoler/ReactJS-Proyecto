@@ -1,20 +1,21 @@
-import Header from "./components/Header/Header" 
-import Footer from "./components/Footer/Footer" 
-import Intro from "./components/Intro/Intro" 
-import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
-import "./App.css" 
-import { Clicker } from "./components/ItemListContainer/Clicker"
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import Intro from "./components/Intro/Intro";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import "./App.css";
+import { Clicker } from "./components/ItemListContainer/Clicker";
+
 
 
 
 function App() {
 
-  const clickear = () => console.log("Hola")
+  const clickear = () => console.log()
 
   return (
 
       <div>
-        <Header/>
+        <Header />
 
         <Intro mensaje="No te muevas de tu casa, elegi los productos y te los llevamos... "/>
         
@@ -28,3 +29,5 @@ function App() {
 }
 
 export default App
+
+
